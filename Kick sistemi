@@ -1,0 +1,15 @@
+$nomention
+$description[Kullanıcı Tekmelendi!]
+$color[$random[1;999999]]
+$argsCheck[>2;Bir Sebeb Belirtmelisin!]
+$argsCheck[>1;Bir Kullanıcı Etiketlemelisin!]
+$kickMention[$noMentionMessage]
+$onlyPerms[kick;Bu komutu sadece `Ban` izni olanlar kullanabilir!] 
+
+$description[
+Kickleyen Yetkili: <@$authorID>
+
+Kicklenen: <@$mentioned[1]>
+
+Kick Sebebi: $noMentionMessage]
+$suppressErrors[Bir Hata Oluştu]
